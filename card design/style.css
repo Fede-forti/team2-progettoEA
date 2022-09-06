@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    
+
+}
+.card{
+    width: 377.52px;
+    height: 446.39px;
+    margin: 0px 0px 24px;
+    padding: 0px 12px;
+    
+}
+.foto{
+   width: 353.52px;
+   height: 198.98px; 
+  
+}
+img{
+    width: 353.53px;
+    height:198.98px;
+}
+.write{
+    width: 353.52px;
+    height: 247.41px;
+    padding: 24px;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+header{
+    display: flex;
+    gap: 20px;
+}
+header .EA{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff4747;
+}
+header .data{
+    font-size: 14px;
+    font-weight: bold;
+    color: #161616;
+}
+h2{
+    font-size: 20px;
+    color: #161616;
+}
+.news{
+    font-size: 16px;
+    color: #161616;
+}
+
+h1{
+    color: black;
+    margin-left: 20px;
+    padding: 20px;
+}
+.sub{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
