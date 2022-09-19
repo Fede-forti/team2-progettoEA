@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="post-navbar.css">
+</head>
+<body>
+    <nav>
+
+        <div class="white-nav">
+            <ul>
+                <li>
+                    <svg viewBox="0 0 16 16" preserveAspectRatio="xMidYMid meet" focusable="false" class="menu-svg">
+                        <g>
+                            <circle cx="14.143" cy="8" r="1.857"></circle>
+                            <circle cx="7.996" cy="8" r="1.857"></circle>
+                            <circle cx="1.857" cy="8" r="1.857"></circle>
+                        </g>
+                    </svg>
+                </li>
+
+                <li>
+                    <picture class="img-nav">
+                        <img src="https://media.contentapi.ea.com/content/dam/eacom/common/ea-wordmark-network-nav-coral.svg
+                        " alt="">
+                    </picture>
+                </li>
+
+                <slot>
+                </slot>
+            </ul>
+        </div>
+
+
+    </nav>
+    
+</body>
+</html>
