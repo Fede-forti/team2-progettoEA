@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+}
+
+.white-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 95px;
+}
+
+.white-nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.white-nav li {
+    margin: 0px 20px;
+}
+
+.menu-svg {
+    transform: rotate(90deg);
+    fill: rgb(22 22 22);
+    width: 30px;
+    height: 30px;
+    margin-left: 6px;
+}
+
+img{
+    height: 35px;
+    margin-left: 10px;
+}
