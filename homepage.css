@@ -3,3 +3,16 @@ body, iframe {
     padding: 0;
 }
 
+.r-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button4 {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
