@@ -9,7 +9,7 @@ body, iframe {
     flex-wrap: wrap;
 }
 
-.button4 {
+.button3, .button4 {
     width: 100vw;
     height: 150px;
     display: flex;
