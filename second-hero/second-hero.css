@@ -7,7 +7,7 @@
 
 .hero-section2{
     width: 100%;
-    height: 50vh;
+    height: 505px;
     display: flex;
     position: absolute;
 }
@@ -30,7 +30,7 @@
     position: relative;
     text-align: center;
     width: 100%;
-    height: 65vh;
+    height: 505px;
 }
 
 .hero-img2 .hero-img-one2 {
