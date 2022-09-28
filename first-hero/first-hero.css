@@ -5,6 +5,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#hero-section{
+  position: relative;
+}
 
 .hero-img {
     position: relative;
@@ -26,13 +29,12 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     position: absolute;
-    width: 100%;
-    height: 20%;
-    left: -25%;
-    top: 20%;
+    width: 48%;
+    height: 100%;
+    top: 0;
   }
   
   p {
@@ -40,10 +42,8 @@
     line-height: 1.15;
     letter-spacing: normal;
     color: #ffffff;
-    position: absolute;
-    right: 2px;
-    top: 120px;
-    left: 10px;
+    margin-bottom: 25px;
+
     
   }
 

@@ -11,6 +11,14 @@ footer{
     display: flex;
     justify-content: center;
 }
+.top{
+    display: flex;
+}
+.buttons{
+    display: flex;
+    width: 500px;
+    display: flex;
+}
 
 .foot-container{
     width: 70%;
