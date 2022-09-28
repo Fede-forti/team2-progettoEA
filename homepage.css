@@ -3,6 +3,13 @@ body, iframe {
     padding: 0;
 }
 
+.giochi_in_evidenza{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eaeaea;
+}
+
 .r-card-container {
     display: flex;
     justify-content: center;
