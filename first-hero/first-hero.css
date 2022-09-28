@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -9,7 +10,7 @@
     position: relative;
     text-align: center;
     width: 100%;
-    height: 65vh;
+    height: 500px;
     overflow: hidden;
   }
   
@@ -35,7 +36,7 @@
   }
   
   p {
-    font-size: 2rem;
+    font-size: 24px;
     line-height: 1.15;
     letter-spacing: normal;
     color: #ffffff;

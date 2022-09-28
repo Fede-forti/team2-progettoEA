@@ -7,10 +7,11 @@ body, iframe {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #eaeaea;
 }
 
 .button3, .button4 {
-    width: 100vw;
+    background-color: #eaeaea;
     height: 150px;
     display: flex;
     justify-content: center;

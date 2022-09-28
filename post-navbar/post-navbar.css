@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: ElectronicArtsDisplay,Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {
@@ -42,19 +43,17 @@ img{
 }
 
 .white-nav ul:nth-child(2){
-    font-size: 18px;
-    font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 45px;
+    font-size: 16px;
+    margin-left: 30px;
 }
 
 .white-nav ul:nth-child(2) li{
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 .white-nav ul:nth-child(2) span{
     transform: rotate(90deg);
     font-size: 23px;
     margin-left: -10px;
-    font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
 }
 

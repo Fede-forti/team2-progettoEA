@@ -3,11 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #eaeaea;
+    font-family: ElectronicArtsDisplay,Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .tab-title {
-    font-family: ElectronicArtsDisplay,Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .tab {
@@ -32,8 +35,8 @@
 }
 
 .stage ul>li {
-    font-size: 28px;
+    font-size: 18px;
     font-family: ElectronicArtsDisplay,Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
+    background-color: #eaeaea;
     padding: 0px 15px;
 }
