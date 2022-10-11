@@ -42,3 +42,9 @@ nav {
     width: 45px;
     height: 45px;
 }
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .black-nav ul:nth-child(1){
+        margin-right: -5px;
+    }
+}
