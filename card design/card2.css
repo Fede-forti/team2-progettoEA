@@ -69,13 +69,20 @@ h2{
     font-size: 16px;
     color: #161616;
 }
-@media only screen and (min-width: 480px) {
-.foto {display: none;}
+@media screen and (min-width:480px) {
 
-.card{
-    height: 247.41px;
+ .container{
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
+    width: 50%;
 }
+.card{
+    height: 200.41px;
+    }
+.foto {display:none;}
+
+img{display: none;}
+
+
 }
 
