@@ -1,0 +1,90 @@
+.btn-container {
+  width: 160px;
+  height: 65px;
+  padding: 5px;
+  border-radius: 2px;
+  transition: 0.1s;
+}
+.btn-container:hover {
+  padding: 0px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .btn-container {
+    width: 144px;
+    height: 56px;
+  }
+}
+@media (max-width: 576px) {
+  .d-sm-block {
+    display: block-inline;
+    width: 100%;
+  }
+}
+.btn {
+  width: 100%;
+  height: 100%;
+  border-radius: 2.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:hover {
+  background: unset;
+}
+
+.btn-light {
+  background-color: white;
+  color: black;
+  border: transparent;
+}
+.btn-light:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-dark {
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+}
+.btn-dark:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.btn-white {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+.btn-white:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.regional-pricing-selector {
+    padding: 8px 24px;
+    background-color: transparent;
+    border-radius: 3px;
+    border: solid 2px #c2c2c2;
+
+}
+
+.regional-pricing-selector_select {
+    background-color: transparent;
+    border: none;
+}
+
+.language-selector {
+    padding: 8px 24px;
+    background-color: transparent;
+    border-radius: 3px;
+    border: solid 2px #c2c2c2;
+}
+
+.language-selector_select {
+    background-color: transparent;
+    border: none;
+}
