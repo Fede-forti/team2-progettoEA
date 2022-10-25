@@ -45,29 +45,8 @@ nav {
 
 /*lista navbar*/
 
-.white-nav ul:nth-child(2){
-    font-size: 23px;
-    font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 45px;
-}
-
-.white-nav ul:nth-child(2) li{
-    margin-left: 45px;
-}
-
-.white-nav ul:nth-child(2) span{
-    transform: rotate(90deg);
-    font-size: 23px;
-    margin-left: -10px;
-    font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
-}
-
 @media (min-width: 320px) and (max-width: 575.98px) {
     .black-nav ul:nth-child(1){
         margin-right: -5px;
-    }
-
-    .black-nav ul:nth-child(2){
-        display: none;
     }
 }
