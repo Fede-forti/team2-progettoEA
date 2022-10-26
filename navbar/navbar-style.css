@@ -43,8 +43,11 @@ nav {
     height: 45px;
 }
 
+<<<<<<< HEAD
 /*lista navbar*/
 
+=======
+>>>>>>> 7f324aff02418f2212c9554a3f49a9b20a18bbac
 @media (min-width: 320px) and (max-width: 575.98px) {
     .black-nav ul:nth-child(1){
         margin-right: -5px;
