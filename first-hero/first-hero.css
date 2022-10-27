@@ -11,8 +11,7 @@
     width: 100%;
     height: 65vh;
     overflow: hidden;
-    margin-top: 3rem;   /*Ho aggiunto un margin top 
-                         per dividere gli elementi*/
+      
   }
   .hero-img .hero-img-one {
     width: 100%;
@@ -45,6 +44,61 @@
     top: 120px;
     left: 10px;
     
+  }
+ 
+  /* Add media query */
+  @media (max-width: 767px) {
+    .hero-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 65vh;
+    }
+    .hero-img-one {
+      transform: scale(2);
+      filter: blur(18px);
+    }
+    .legends-hero {
+      display: flex;
+      justify-content: center;
+      /*top: 52%;*/
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    p {
+      
+      font-size: 2rem;
+      line-height: 1.15;
+      letter-spacing: normal;
+      color: #161616;
+      color: #ffffff;
+    
+    }
+  }
+
+  /*Media query tablet */
+ 
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .hero-img {
+      height: 50vh;
+      width: 100vw;
+    }
+    .hero-img-one {
+      height: 100%;
+      width: 100%;
+      background-image: url("tablet-ea.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: scale(1.03);
+    }
+    .legends-hero {
+      width: 35rem;
+      height: 45rem;
+      position: absolute;
+      top: 60%;
+      left: 28%;
+      transform: translate(-50%, -50%) scale(0.8);
+    }
   }
 
  
