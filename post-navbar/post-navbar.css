@@ -15,7 +15,8 @@ nav {
   align-items: center;
   justify-content: flex-start;
   width: 100vw;
-  height: 95px;
+  height: 60px;
+  padding-left: 17px;
 }
 
 .white-nav ul {
@@ -25,20 +26,14 @@ nav {
 }
 
 .white-nav li {
-  margin: 0px 20px;
+  margin: 0px 7px;
 }
 
 .menu-svg {
   transform: rotate(90deg);
   fill: rgb(22 22 22);
-  width: 30px;
-  height: 30px;
-  margin-left: 6px;
-}
-
-.white-nav img {
-  height: 35px;
-  margin-left: 10px;
+  width: 20px;
+  height: 24px;
 }
 
 .hamburger {
@@ -46,19 +41,20 @@ nav {
 }
 
 .white-nav ul:nth-child(2) {
-  font-size: 23px;
+  font-size: 18px;
   font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
-  margin-left: 45px;
+  margin-left: 10px;
 }
 
 .white-nav ul:nth-child(2) li {
-  margin-left: 45px;
+  margin-left: 15px;
+  font-size: 18px;
 }
 
 .white-nav ul:nth-child(2) span {
   transform: rotate(90deg);
-  font-size: 23px;
-  margin-left: -10px;
+  font-size: 18px;
+  margin-left: -15px;
   font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -107,7 +103,7 @@ nav {
   background-color: transparent;
   color: inherit;
   padding: 16px;
-  font-size: 23px;
+  font-size: 18px;
   border: none;
 }
 
@@ -130,5 +126,6 @@ nav {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-size: 18px;
 }
   

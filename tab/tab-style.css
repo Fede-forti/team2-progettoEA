@@ -17,7 +17,7 @@
     width: 100vw;
     height: 60px;
     border-bottom: 3px solid rgba(192, 192, 192, 0.469);
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .stage {
@@ -32,7 +32,7 @@
 }
 
 .stage ul>li {
-    font-size: 28px;
+    font-size: 18px;
     font-family: ElectronicArtsDisplay,Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
     padding: 0px 15px;
