@@ -1,0 +1,510 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+}
+/* nav nera css */
+nav {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.black-nav {
+    background-color: rgb(22 22 22);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.black-nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 47px;
+}
+
+.black-nav li {
+    margin: 0px 30px;
+}
+
+.black-nav svg {
+    pointer-events: none;
+    display: block;
+    width: 26px;
+    height: 26px;
+    fill: rgb(243 243 243);
+}
+
+.ea-svg {
+    width: 45px;
+    height: 45px;
+}
+
+/*fine nav nera*/
+
+
+/*Inizio nav bianca*/
+
+
+.white-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 60px;
+  }
+  
+  .white-nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .white-nav li {
+    margin: 0px 20px;
+  }
+  
+  .menu-svg {
+    transform: rotate(90deg);
+    fill: rgb(22 22 22);
+    width: 24px;
+    height: 24px;
+    margin-left: 6px;
+  }
+  
+  .white-nav img {
+    height: 23.77px;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
+  .white-nav ul:nth-child(2) {
+    font-size: 18px;
+    font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 45px;
+  }
+  
+  .white-nav ul:nth-child(2) li {
+    margin-left: 45px;
+  }
+  
+  .white-nav ul:nth-child(2) span {
+    transform: rotate(90deg);
+    font-size: 18px;
+    margin-left: -10px;
+    font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /* media query andrei da sistemare */
+  @media (min-width: 320px) and (max-width: 575.98px) {
+    .menu-svg {
+      display: none;
+    }
+  
+    .white-nav img {
+      height: 7px;
+    }
+  
+    .white-nav ul {
+      margin-left: -55px;
+      margin-top: -80px;
+    }
+  
+    .hamburger {
+      display: block;
+      width: 10px;
+      height: 10px;
+      margin-top: 5px;
+    }
+  
+    .white-nav img {
+      height: 7px;
+      margin-left: -30px;
+    }
+  
+    .white-nav ul:nth-child(2) {
+      display: none;
+    }
+  }
+  
+  /* liste dropdown */
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropbtn {
+    background-color: transparent;
+    color: inherit;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+/* fine nav bianca */
+
+
+/* 
+#hero {
+    height: 80%;
+    width: 100%;
+    background-color: red;
+    object-fit: cover;
+
+
+
+} */
+
+#hero video {
+    width: 100%;
+    height: 475px;
+    /* position: relative;
+    left: 0;
+    z-index: 5; */
+    object-fit: cover;
+
+    
+}
+
+/*Tab css*/
+
+.tab-container {
+    display: flex;
+
+    flex-direction: column;
+    gap: 25px;
+}
+
+.tab-title {
+    font-family: ElectronicArtsDisplay,Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    border-bottom: 3px solid rgba(192, 192, 192, 0.469);
+
+}
+
+/* .tab  li:hover{
+    background-color: rgb(119, 136, 153);
+    height: 40px;
+    cursor: pointer;
+} */
+
+
+.stage {
+    display: grid;
+    background-color: rgba(192, 192, 192, 0.469);
+}
+
+
+.stage ul {
+    display: flex;
+    list-style: none;
+    gap: 3px;
+}
+
+
+
+.stage ul>li {
+    font-size: 20px;
+    font-family: ElectronicArtsDisplay,Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    padding: 0px 15px;
+}
+
+
+/* maurocard css*/
+
+
+h3 {
+    font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.card-container{
+
+    width: 80%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 250px;
+  
+    
+}
+
+.row_card {
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    /* margin-left: 50px; */
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.link_card {
+    width: 100%;
+    height: 100%;
+    /* transition: .2s; */
+}
+
+.card1 {
+    background-image: url("../img/fifa22-next-gen.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    filter: brightness(90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card2 {
+    background-image: url("../img/apex-mobile.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    filter: brightness(90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card3 {
+    background-image: url("../img/F122.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    filter: brightness(90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card4 {
+    background-image: url("../img/battlefield-2024.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    filter: brightness(90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card5 {
+    background-image: url("../img/apex-pc.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    filter: brightness(90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card6 {
+    background-image: url("../img/the-sims-4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    filter: brightness(90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container_svg {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+
+}
+
+.svg {
+    position: relative;
+    width: 132px;
+    left: 113px;
+    top: 140px;
+}
+
+.link_card:hover {
+
+    box-shadow: 0 14px 20px 0 rgb(80 80 80 / 24%);
+    background: linear-gradient(to left, #ff4747, #0d1042);
+    filter: opacity(0.9);
+
+}
+
+.href_card {
+    display: none;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    /* top: 0px; */
+    /* left: 116px; */
+    font-size: 20px;
+    text-align: center;
+    padding-top: 164px;
+
+}
+
+.link_card:hover .container_svg {
+    top: -63px
+}
+
+.link_card:hover .href_card {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer Federica */
+
+footer{
+    width: 100%;
+    min-height: 35vh;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+}
+
+.foot-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(52, 52, 52);
+}
+
+.logo-container > img{
+    width: 49px;
+    height: 49px;
+    margin: 0 20px;
+
+   
+}
+
+
+
+.foot-links{
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    margin: 0 0 0 -10px;
+}
+
+.foot-links > li{
+    line-height: 40px;
+    margin: 0 50px 0 0;
+}
+
+.legal-copyright{
+    max-width: 55%;
+    padding: 0 0 0 30px;
+}
+
+.legal-links{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.legal-links > li{
+    margin: 0 25px 0 0;
+    line-height: 25px;
+}
+
+.trust-container{
+    display: flex;
+    align-items: flex-end;
+}

@@ -35,3 +35,30 @@
        font-size: 2rem;
        
    }
+
+   /* Add media query */
+
+   @media (max-width: 767px) {
+    #parent-control-footer {
+        width: 100%;
+        height: 20rem;
+        background-color: #6fb0d6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+       #parent-control-footer .parent-description {
+        font-size: 2.4rem;
+        line-height: 1.15;
+        letter-spacing: normal;
+        font-weight: 600;
+        color: #161616;
+        color: #161616;
+        font-family: "ElectronicArtsDisplay-Bold";
+        margin: 0;
+        margin-bottom: 1rem;
+        width: 30rem;
+      
+      }
