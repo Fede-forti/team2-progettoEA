@@ -4,7 +4,7 @@ let cardNumber = 0;
 
 // Recupero l'API contenente i dati delle CARD
 async function fetchArticleEA(){
-    const response = await fetch('APIs/coming-soon.json');
+    const response = await fetch('../team2-progettoEA/card-coming-soon/APIs/coming-soon.json');
     data = await response.json();
     window.dispatchEvent(dataFetch)
 }
