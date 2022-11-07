@@ -4,7 +4,7 @@ let cardNumber = 0;
 
 // Recupero l'API contenente i dati delle CARD
 async function fetchArticleEA(){
-    const response = await fetch('../team2-progettoEA/card-coming-soon/APIs/coming-soon.json');
+    const response = await fetch('APIs/coming-soon.json');
     data = await response.json();
     window.dispatchEvent(dataFetch)
 }
@@ -19,7 +19,8 @@ window.addEventListener('dataFetch', () => {
     const img = document.querySelectorAll("#img");
     const date = document.querySelectorAll("#date");
     const platform =document.querySelectorAll("#platform");
-    const gender =document.querySelectorAll("#gender");
+    const gender = document.querySelectorAll("#gender");
+    const link = document.querySelectorAll("#link");
 
     while(counter<6){
         h5[counter].textContent=data[counter].title;
@@ -27,6 +28,7 @@ window.addEventListener('dataFetch', () => {
         date[counter].textContent=data[counter].date;
         platform[counter].textContent=data[counter].platform;
         gender[counter].textContent=data[counter].gender;
+        link[counter].href=data[counter].link;
         counter++;
     }   
 }

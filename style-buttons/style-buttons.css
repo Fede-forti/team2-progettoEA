@@ -75,6 +75,17 @@ a{
   border: 2px solid white;
 }
 
+.btn-red {
+  color: white;
+  border: transparent;
+  background-color: #ff4747db
+}
+
+.btn-red:hover {
+  background-color: #ff4747db;
+  color: white;
+}
+
 .regional-pricing-selector {
     padding: 8px 24px;
     background-color: transparent;
