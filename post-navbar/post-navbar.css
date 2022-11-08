@@ -16,7 +16,7 @@ nav {
   align-items: center;
   justify-content: flex-start;
   width: 100vw;
-  height: 95px;
+  height: 60px;
 }
 
 .white-nav ul {
@@ -32,14 +32,14 @@ nav {
 .menu-svg {
   transform: rotate(90deg);
   fill: rgb(22 22 22);
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin-left: 6px;
 }
 
 .white-nav img {
-  height: 35px;
-  margin-left: 10px;
+  height: 25px;
+  margin-left: -50px;
 }
 
 .hamburger {
@@ -49,7 +49,7 @@ nav {
 .white-nav ul:nth-child(2) {
   font-size: 23px;
   font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
-  margin-left: 45px;
+  margin-left: -20px;
 }
 
 .white-nav ul:nth-child(2) li {
@@ -58,8 +58,8 @@ nav {
 
 .white-nav ul:nth-child(2) span {
   transform: rotate(90deg);
-  font-size: 23px;
-  margin-left: -10px;
+  font-size: 18px;
+  margin-left: -30px;
   font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -108,7 +108,7 @@ nav {
   background-color: transparent;
   color: inherit;
   padding: 16px;
-  font-size: 23px;
+  font-size: 18px;
   border: none;
 }
 
