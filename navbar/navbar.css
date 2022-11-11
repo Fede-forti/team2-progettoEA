@@ -1,0 +1,117 @@
+.pre-navbar {
+  justify-content: flex-end;
+  background-color: rgb(22, 22, 22);
+  height: 40px;
+  padding: 0px;
+}
+.pre-navbar .pre-ul {
+  margin-right: 16px;
+  align-items: center;
+}
+.pre-navbar .pre-ul .pre-li {
+  border-style: none;
+  background-color: transparent;
+  padding: 0px 16px;
+  cursor: pointer;
+}
+.pre-navbar .pre-ul .pre-li:hover {
+  filter: brightness(200%);
+}
+.pre-navbar .pre-ul .pre-li .pre-img {
+  width: 24px;
+  height: 24px;
+  padding: 3px;
+}
+.pre-navbar .pre-ul .pre-li .ea-logo {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+}
+.pre-navbar #login {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(22, 22, 22);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.pre-navbar #login .flex-accedi-o-registrati {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 30px;
+  transition: margin-top 0.2s linear 0s;
+}
+.pre-navbar #login .flex-accedi-o-registrati:hover {
+  margin-top: -10px;
+  cursor: pointer;
+}
+.pre-navbar #login .flex-accedi-o-registrati .eaGlobalNav_linkImage {
+  width: 36px;
+  height: 36px;
+}
+.pre-navbar #login .flex-accedi-o-registrati .h6-login {
+  color: white;
+  padding-top: 0.5rem;
+  font-family: "oswald", Arial, Helvetica, sans-serif;
+}
+.pre-navbar .X {
+  width: 13px;
+  height: 13px;
+  right: 32px;
+  position: absolute;
+  top: 84px;
+  cursor: pointer;
+}
+.pre-navbar #ask {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(22, 22, 22);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.pre-navbar #ask .info-head {
+  color: white;
+  position: absolute;
+  top: 120px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.04em;
+}
+.pre-navbar #ask .info-bottom {
+  color: white;
+  position: absolute;
+  top: 350px;
+}
+.pre-navbar #ask .info-bottom .bottom-info-links {
+  color: red;
+  text-decoration: none;
+  font-size: 14px;
+}
+.pre-navbar #ask .row {
+  margin: 0px -70px;
+}
+.pre-navbar #ask .classi-aiuto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.pre-navbar #ask .classi-aiuto:hover {
+  cursor: pointer;
+}
+.pre-navbar #ask .classi-aiuto .eaGlobalNav_linkImage {
+  width: 36px;
+  height: 36px;
+}
+.pre-navbar #ask .classi-aiuto .h6-login {
+  color: white;
+  padding-top: 0.5rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=navbar.css.map */
