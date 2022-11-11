@@ -30,10 +30,10 @@ window.addEventListener('dataFetch', () => {
         console.log(item.link);
 
         const row = document.createElement("div");
+        const card = document.createElement("div");
         row.className = "row";
-        row.innerHTML = `<div class="d - flex flex - column coming - soon - card - wrapper" style="width: 544px; "><img id="img" src="${item.url}"><h5 id="title" class="fw - bold mt - 3 mb - 4">${item.title}</h5><div class="d - flex align - items - baseline coming - soon - flex coming - soon - border"><p class="fw - bold w - 25 pb - 1">Data di Uscita</p><p id="date" class="fw - boldw - 75">${item.date}</p></div><div class="d - flex align - items - baseline coming - soon - flex coming - soon - border"><p class="fw - bold w - 25 pb - 1">Piattaforme</p> <div class="coming-soon-responsive-width text-red" ><p id="platform">${item.platform}</p></div ></div ><div class="d-flex align-items-baseline coming-soon-flex coming-soon-border"><p class="fw-bold w-25 pb-1">Genere</p><div class="h6 w-75 text-red"><p id="gender" >${item.gender}</p></div></div><div class="mt-4"><div class="btn-container d-sm-block"><a id="link" class="btn btn-dark" href="${item.link}">Sito ufficiale</a></div></div></div >`;
-        container.appendChild(row)
-
+        card.innerHTML = `<div class="d - flex flex - column coming - soon - card - wrapper" style="width: 544px; "><img id="img" src="${item.url}"><h5 id="title" class="fw - bold mt - 3 mb - 4">${item.title}</h5><div class="d - flex align - items - baseline coming - soon - flex coming - soon - border"><p class="fw - bold w - 25 pb - 1">Data di Uscita</p><p id="date" class="fw - boldw - 75">${item.date}</p></div><div class="d - flex align - items - baseline coming - soon - flex coming - soon - border"><p class="fw - bold w - 25 pb - 1">Piattaforme</p> <div class="coming-soon-responsive-width text-red" ><p id="platform">${item.platform}</p></div ></div ><div class="d-flex align-items-baseline coming-soon-flex coming-soon-border"><p class="fw-bold w-25 pb-1">Genere</p><div class="h6 w-75 text-red"><p id="gender" >${item.gender}</p></div></div><div class="mt-4"><div class="btn-container d-sm-block"><a id="link" class="btn btn-dark" href="${item.link}">Sito ufficiale</a></div></div></div >`;
+        container.appendChild(card)
 
     })
 

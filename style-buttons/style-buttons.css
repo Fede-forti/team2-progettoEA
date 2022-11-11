@@ -85,28 +85,3 @@ a{
   background-color: #ff4747db;
   color: white;
 }
-
-.regional-pricing-selector {
-    padding: 8px 24px;
-    background-color: transparent;
-    border-radius: 3px;
-    border: solid 2px #c2c2c2;
-
-}
-
-.regional-pricing-selector_select {
-    background-color: transparent;
-    border: none;
-}
-
-.language-selector {
-    padding: 8px 24px;
-    background-color: transparent;
-    border-radius: 3px;
-    border: solid 2px #c2c2c2;
-}
-
-.language-selector_select {
-    background-color: transparent;
-    border: none;
-}
