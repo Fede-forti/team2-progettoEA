@@ -12,6 +12,10 @@
   justify-content: center;
 }
 
+ul{
+  margin-bottom: 0rem!important;
+}
+
 .btn-pros:hover {
   background: unset;
 }
