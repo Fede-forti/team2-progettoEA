@@ -33,6 +33,7 @@ body{
 
 .sicon{
     width: 25px;
+    height: 25px;
     transition: ease-in-out 0.2s;
     margin: 0  0 0 40px;
 }

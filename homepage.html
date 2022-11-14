@@ -1,56 +1,501 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="./navbar/navbar.css">
+    <link rel="stylesheet" href="./Post-navbar/post-navbar.css">
+    <link rel="stylesheet" href="./first-hero/first-hero.css">
+    <link rel="stylesheet" href="styleCard_mauro.css">
+    <link rel="stylesheet" href="./style-buttons/style-buttons.css">
+    <link rel="stylesheet" href="./tab/tab-style.css">
+    <link rel="stylesheet" href="./card design/card2.css">
+    <link rel="stylesheet" href="./style-buttons/style-buttons.css">
+    <link rel="stylesheet" href="./second-hero/second-hero.css">
+    <link rel="stylesheet" href="./banner/banner.css">
+    <link rel="stylesheet" href="./Prefooter/prefooter.css">
+    <link rel="stylesheet" href="./Footer/footer.css">
+
+    <link rel="stylesheet" href="../navbar/navbar-style.css">
+    <link rel="stylesheet" href="../post-navbar/post-navbar.css">
+    <script src="../post-navbar/post-navbar.js" type="module"></script>
+    <link rel="stylesheet" href="../Footer/footer.css">
+    <link rel="stylesheet" href="../tab/tab-style.css">
+
+    <script src="./navbar/navbar.js" type="module"></script>
+    <script src="./Post-navbar/post-navbar.js"></script>
 
 </head>
+
 <body>
-    <iframe src="./navbar/navbar.html" frameborder="0" width="100%" height="40px"></iframe>
-    <iframe src="./post-navbar/post-navbar.html" frameborder="0" width="100%" height="60px"></iframe>
-    <iframe src="./first-hero/first-hero.html" frameborder="0" width="100%" height="500px"></iframe>
-    
-    <iframe src="title_mauro.html/title_mauro.html" frameborder="0" width="100%" scrolling="no"></iframe>
-    
+    <nav class="navbar pre-navbar">
+        <ul class="list-group list-group-horizontal pre-ul">
+            <li class="list-group-item pre-li">
+                <img src="./navbar/svg/user.svg" alt="" class="img-fluid pre-img ea-form">
+            </li>
+            <li class="list-group-item pre-li">
+                <img src="./navbar/svg/punto.svg" alt="" class="img-fluid pre-img ea-ask">
+            </li>
+            <li class="list-group-item pre-li">
+                <a href="#"><img src="./navbar/svg/ea.svg" alt="" class="img-fluid ea-logo"></a>
+            </li>
+        </ul>
+
+        <!-- inizio section login -->
+
+        <section id="login" class="container-fluid">
+            <img src="./navbar/svg/exit.svg" alt="" class="X img-fluid">
+
+            <div class="flex-accedi-o-registrati col-sm-2">
+                <img class="eaGlobalNav_linkImage img-fluid"
+                    src="https://media.contentapi.ea.com/content/dam/eacom/common/200429_global-nav/eaglobalnav-iconsignin.svg"
+                    alt="Accedi">
+                <h6 class="h6-login">Accedi</h6>
+            </div>
+
+            <div class=" flex-accedi-o-registrati col-sm-2"> <img class="eaGlobalNav_linkImage img-fluid"
+                    src="https://media.contentapi.ea.com/content/dam/eacom/common/200429_global-nav/eaglobalnav-iconregister.svg"
+                    alt="Crea account">
+                <h6 class="h6-login">Crea Account</h6>
+            </div>
+        </section>
+
+        <!-- inizio section informazioni -->
+
+        <section id="ask" class="container-fluid">
+            <img src="./navbar/svg/exit.svg" alt="" class="X img-fluid">
+
+            <div class="info-head"><b>Ti serve aiuto?</b></div>
+
+            <div class="row align-items-start">
+                <div class="classi-aiuto">
+                    <img class="eaGlobalNav_linkImage img-fluid"
+                        src="https://media.contentapi.ea.com/content/dam/eacom/common/200429_global-nav/eaglobalnav-iconorigin.svg"
+                        alt="Verifica dati di accesso a Origin">
+                    <h6 class="h6-login">Verifica dati di accesso a Origin</h6>
+                </div>
+
+                <div class="classi-aiuto">
+                    <img class="eaGlobalNav_linkImage img-fluid"
+                        src="https://media.contentapi.ea.com/content/dam/eacom/common/200429_global-nav/eaglobalnav-iconorigincode.svg"
+                        alt="Come riscattare un codice">
+                    <h6 class="h6-login">Come riscattare un codice</h6>
+                </div>
+            </div>
+
+            <div class="row align-items-end">
+                <div class="classi-aiuto">
+                    <img class="eaGlobalNav_linkImage img-fluid"
+                        src="https://media.contentapi.ea.com/content/dam/eacom/common/200429_global-nav/eaglobalnav-iconlink.svg"
+                        alt="Collega Origin al mio ID PSN">
+                    <h6 class="h6-login">Collega Origin al mio ID PSN</h6>
+                </div>
+
+                <div class="classi-aiuto">
+                    <img class="eaGlobalNav_linkImage img-fluid"
+                        src="https://media.contentapi.ea.com/content/dam/eacom/common/200429_global-nav/eaglobalnav-iconalert.svg"
+                        alt="Non riesco a giocare online">
+                    <h6 class="h6-login">Non riesco a giocare online</h6>
+                </div>
+            </div>
+
+            <p class="info-bottom">Non hai trovato ciò che cerchi? Vai su <a href="https://help.ea.com/it/"
+                    class="bottom-info-links" target="_blank">Aiuto EA</a> , <a href="https://answers.ea.com/"
+                    class="bottom-info-links" target="_blank">Answers HQ</a> oder die <a
+                    href="https://www.ea.com/it-it/forums" class="bottom-info-links" target="_blank">Forum EA</a> .</p>
+        </section>
+
+    </nav>
+
+    <nav class="navbar post-navbar">
+
+        <ul class="list-group list-group-horizontal post-ul">
+
+            <li class="list-group-item post-li">
+                <img src="./Post-navbar/svg/menu.svg" alt="" class="img-fluid menu">
+            </li>
+
+            <li class="list-group-item post-li">
+                <img src="https://media.contentapi.ea.com/content/dam/eacom/common/ea-wordmark-network-nav-coral.svg"
+                    alt="" class="img-fluid logo">
+            </li>
+
+            <ul class="list-group list-group-horizontal post-ul">
+                <li class="list-group-item post-li">Giochi <img src="./Post-navbar/svg/chevronup.svg"
+                        class="img-fluid chevron">
+                    <div class="content-li"></div>
+                </li>
+                <li class="list-group-item post-li">Altre esperienze<img src="./Post-navbar/svg/chevronup.svg"
+                        class="img-fluid chevron">
+                    <div class="content-li"></div>
+                </li>
+                <li class="list-group-item post-li">Informazioni<img src="./Post-navbar/svg/chevronup.svg"
+                        class="img-fluid chevron">
+                    <div class="content-li"></div>
+                </li>
+                <li class="list-group-item post-li">Impegni<img src="./Post-navbar/svg/chevronup.svg"
+                        class="img-fluid chevron">
+                    <div class="content-li"></div>
+                </li>
+                <li class="list-group-item post-li">Risorse<img src="./Post-navbar/svg/chevronup.svg"
+                        class="img-fluid chevron">
+                    <div class="content-li"></div>
+                </li>
+            </ul>
+
+        </ul>
+
+    </nav>
+
+    <section id="hero-section">
+        <div class="hero-img">
+            <img class="hero-img-one" />
+        </div>
+        <div class="legends-hero">
+            <p>Prendi posto sulla griglia di partenza oggi stesso <br>con EA play!*</p>
+
+        </div>
+    </section>
+
+    <h3>Giochi in evidenzia</h3>
+
     <div class="giochi_in_evidenza">
-        
+
         <div class="iframe_row">
-            <iframe src="card1_mauro/card1_mauro.html" frameborder="0" width="350px" height="350px" scrolling="no"></iframe>
-            <iframe src="card2_mauro/card2_mauro.html" frameborder="0" width="350px" height="350px" scrolling="no"></iframe>
-            <iframe src="card3_mauro/card3_mauro.html" frameborder="0" width="350px" height="350px" scrolling="no"></iframe>
+
+            <div class="row_card">
+                <div class="card1">
+                    <div class="link_card">
+                        <div class="container_svg">
+                            <img class="svg" src="./img/fifa23-logo-white-stacked.svg">
+                            <a href="#" class="href_card">Sito ufficiale</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row_card">
+                <div class="card2">
+                    <div class="link_card">
+                        <div class="container_svg">
+                            <img class="svg" src="./img/apex-mobile-logo.svg">
+                            <a href="#" class="href_card">Sito ufficiale</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row_card">
+                <div class="card3">
+                    <div class="link_card">
+                        <div class="container_svg">
+                            <img class="svg_f1" src="./img/f122-gamebox-logo.png">
+                            <a href="#" class="href_card">Sito ufficiale</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="iframe_row2">
-            <iframe src="card4_mauro/card4_mauro.html" frameborder="0" width="350px" height="350px" scrolling="no"></iframe>
-            <iframe src="card5_mauro/card5_mauro.html" frameborder="0" width="350px" height="350px" scrolling="no"></iframe>
-            <iframe src="card6_mauro/card6_mauro.html" frameborder="0" width="350px" height="350px" scrolling="no"></iframe>
+
+            <div class="row_card">
+                <div class="card4">
+                    <div class="link_card">
+                        <div class="container_svg">
+                            <img class="svg" src="./img/battlefield-2042-mono-logo-svg.svg">
+                            <a href="#" class="href_card">Sito ufficiale</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row_card">
+                <div class="card5">
+                    <div class="link_card">
+                        <div class="container_svg">
+                            <img class="svg" src="./img/apex-legends-mono-logo.svg">
+                            <a href="#" class="href_card">Sito ufficiale</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row_card">
+                <div class="card6">
+                    <div class="link_card">
+                        <div class="container_svg">
+                            <img class="svg" src="./img/game-box-logo-thesims4-refresh.svg">
+                            <a href="#" class="href_card">Sito ufficiale</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
     <div class="button3">
-        <iframe src="./button3/button3.html" frameborder="0"></iframe>
+
+        <div class="btn-container d-sm-block">
+            <a class="btn btn-dark" href="#">
+                Ultimi giochi
+            </a>
+        </div>
     </div>
-    <iframe src="./tab/tab.html" frameborder="0" width="100%" height="193px"></iframe>
+
+    <div class="tab-container">
+        <div class="tab-title">
+            <h1>Ultime novità</h1>
+        </div>
+        <div class="tab">
+            <div class="stage">
+                <ul>
+                    <li>Notizie EA</li>
+                    <li>EA Play</li>
+                    <li>FIFA</li>
+                    <li>F1</li>
+                    <li>Apex Legends</li>
+                    <li>The Sims 4</li>
+                    <li>Battlefield</li>
+                    <li>Inside EA</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <div class="r-card-container">
-        <iframe src="./r-card1/r-card1.html" frameborder="0" width="26%" height="470px"></iframe>
-        <iframe src="./r-card2/r-card2.html" frameborder="0" width="26%" height="470px"></iframe>
-        <iframe src="./r-card3/r-card3.html" frameborder="0" width="26%" height="470px"></iframe>
-        <iframe src="./r-card4/r-card4.html" frameborder="0" width="26%" height="470px"></iframe>
-        <iframe src="./r-card5/r-card5.html" frameborder="0" width="26%" height="470px"></iframe>
-        <iframe src="./r-card6/r-card6.html" frameborder="0" width="26%" height="470px"></iframe>
+
+
+        <div class="card">
+            <div class="foto">
+                <img src="./im/EA.png">
+            </div>
+            <div class="write">
+                <header>
+                    <p class="EA"> Electronic Arts Inc.</p>
+                    <p class="data"> 29-lug-2022</p>
+                </header>
+                <h2>Aggiornamento transizione <br>
+                    esecutiva</h2>
+                <p class="news"> Dopo aver contribuito a completare la<br>
+                    transizione con il nostro nuovo direttore<br>
+                    finanziario, l'ultimo giorno di Blake <br>Jorgensen in Electronics Arts, è oggi, 29<br> luglio.
+                </p>
+            </div>
+        </div>
+
+
+
+
+        <div class="card">
+            <div class="foto">
+                <img src="./im/eablu.jpg">
+            </div>
+            <div class="write">
+                <header>
+                    <p class="EA"> Electronic Arts Inc.</p>
+                    <p class="data"> 29-lug-2022</p>
+                </header>
+                <h2>Aggiornamento transizione <br>
+                    esecutiva</h2>
+                <p class="news"> Dopo aver contribuito a completare la<br>
+                    transizione con il nostro nuovo direttore<br>
+                    finanziario, l'ultimo giorno di Blake <br>Jorgensen in Electronics Arts, è oggi, 29<br> luglio.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="foto">
+                <img src="./im/ea-logo.jpg">
+            </div>
+            <div class="write">
+                <header>
+                    <p class="EA"> Electronic Arts Inc.</p>
+                    <p class="data"> 29-lug-2022</p>
+                </header>
+                <h2>Aggiornamento transizione <br>
+                    esecutiva</h2>
+                <p class="news"> Dopo aver contribuito a completare la<br>
+                    transizione con il nostro nuovo direttore<br>
+                    finanziario, l'ultimo giorno di Blake <br>Jorgensen in Electronics Arts, è oggi, 29<br> luglio.
+                </p>
+            </div>
+        </div>
     </div>
+
+    <div class="r-card-container">
+        <div class="card">
+            <div class="foto">
+                <img src="./im/maxresdefault.jpg">
+            </div>
+            <div class="write">
+                <header>
+                    <p class="EA"> Electronic Arts Inc.</p>
+                    <p class="data"> 29-lug-2022</p>
+                </header>
+                <h2>Aggiornamento transizione <br>
+                    esecutiva</h2>
+                <p class="news"> Dopo aver contribuito a completare la<br>
+                    transizione con il nostro nuovo direttore<br>
+                    finanziario, l'ultimo giorno di Blake <br>Jorgensen in Electronics Arts, è oggi, 29<br> luglio.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="foto">
+                <img src="./im/EA.png">
+            </div>
+            <div class="write">
+                <header>
+                    <p class="EA"> Electronic Arts Inc.</p>
+                    <p class="data"> 29-lug-2022</p>
+                </header>
+                <h2>Aggiornamento transizione <br>
+                    esecutiva</h2>
+                <p class="news"> Dopo aver contribuito a completare la<br>
+                    transizione con il nostro nuovo direttore<br>
+                    finanziario, l'ultimo giorno di Blake <br>Jorgensen in Electronics Arts, è oggi, 29<br> luglio.
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <div class="foto">
+                <img src="./im/ea-koei-tecmo-gioco-ambientato-giappone-feudale-v3-608046.jpg">
+            </div>
+            <div class="write">
+                <header>
+                    <p class="EA"> Electronic Arts Inc.</p>
+                    <p class="data"> 29-lug-2022</p>
+                </header>
+                <h2>Aggiornamento transizione <br>
+                    esecutiva</h2>
+                <p class="news"> Dopo aver contribuito a completare la<br>
+                    transizione con il nostro nuovo direttore<br>
+                    finanziario, l'ultimo giorno di Blake <br>Jorgensen in Electronics Arts, è oggi, 29<br> luglio.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
     <div class="button4">
-        <iframe src="./button4/button4.html" frameborder="0"></iframe>
+        <div class="btn-container d-sm-block">
+            <a class="btn btn-dark" href="#">
+                Più dettagli
+            </a>
+        </div>
     </div>
-    <iframe src="./second-hero/second-hero.html" frameborder="0" width="100%" height="509px"></iframe>
-    <iframe src="./banner/banner.html" frameborder="0" width="100%" height="150px"></iframe>
-    <iframe src="./Prefooter/prefooter.html" frameborder="0" width="100%" height="250px"></iframe>
-    <iframe src="./Footer/Footer.html" frameborder="0" width="100%" height="342px"></iframe>
 
+    <section id="hero-section2">
+        <div class="hero-img2">
+            <div class="content">
+                <p class="testo-second">Non limitarti al gioco. Gioca al massimo. Sblocca ricompense<br>
+                    esclusive, contenuti per i soli membri e una libreria dei migliori <br> titoli.</p>
 
+                <div class="btn-container d-sm-block">
+                    <a class="btn btn-white" href="#">
+                        Iscriviti subito
+                    </a>
+                </div>
+            </div>
+            <img class="hero-img-one2" />
+        </div>
+    </section>
 
+    <section id="parent-control-footer">
+        <div class="parent-description">
+            <h2>
+                Genitori: il controllo dei videogiochi è nelle <br> vostre mani.
+            </h2>
+        </div>
+    </section>
 
+    <section class="prefooter">
+        <div class="prefoot-container">
+            <div class="link-list">
+                <ul class="links">
+                    <li><a href="https://www.ea.com/it-it/careers">Lavora con noi</a></li>
+                    <li><a href="https://www.ea.com/it-it/executives">Dirigenza</a></li>
+                    <li><a href="https://www.ea.com/it-it/news/sharing-our-2021-impact-report">Rapporto sull'impatto</a>
+                    </li>
+                    <li><a href="https://www.ea.com/it-it/about/political-activities-statement">Attività politiche</a>
+                    </li>
+                    <li><a href="https://www.ea.com/it-it/about/reporting-concerns">Segnala un problema</a></li>
+                    <li><a href="https://www.ea.com/it-it/about/global-human-rights-statement">Dichiarazione globale sul
+                            rispetto dei diritti umani</a></li>
+                    <li><a href="https://www.ea.com/it-it/about/privacy">Sicurezza e privacy</a></li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <div class="social-title">
+                    <p>Partecipa alla conversazione</p>
+                </div>
+                <ul class="social-list">
+                    <li><a href=""><img class="sicon" src="./Prefooter/assets/facebook.png" alt="facebook"></a></li>
+                    <li><a href=""><img class="sicon" src="./Prefooter/assets/twitter.png" alt="twitter"></a></li>
+                    <li><a href=""><img class="sicon" src="./Prefooter/assets/youtube.png" alt="youtube"></a></li>
+                    <li><a href=""><img class="sicon" src="./Prefooter/assets/instagram.png" alt="instagram"></a></li>
+                    <li><a href=""><img class="sicon" src="./Prefooter/assets/twitch.png" alt="twitch"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
+    <footer>
+        <div class="foot-container">
+            <div class="logo-container">
+                <img src="./Footer/assets/ea-ring.png" alt="EA Logo">
+            </div>
+
+            <div class="foot-content">
+                <div class="top">
+                    <ul class="foot-links">
+                        <li><a href="">Libreria dei giochi</a></li>
+                        <li><a href="">Registrati</a></li>
+                        <li><a href="">Riscatta codice</a></li>
+                        <li><a href="">Origin</a></li>
+                        <li><a href="">Informazioni</a></li>
+                        <li><a href="">Accessibilità</a></li>
+                        <li><a href="">Aiuto</a></li>
+                    </ul>
+                    <div class="buttons">
+                        <iframe src="../button7/button7.html" frameborder="0"></iframe>
+                        <iframe src="../button8/button8.html" frameborder="0"></iframe>
+                    </div>
+                </div>
+
+                <div class="legal-copyright">
+                    <ul class="legal-links">
+                        <li><a href="">Impressum</a></li>
+                        <li><a href="">Note legali e privacy</a></li>
+                        <li><a href="">Accordo con l'utente</a></li>
+                        <li><a href="">Politica sulla privacy e sui cookie (i tuoi diritti sulla privacy)</a></li>
+                        <li><a href="">Aggiornamenti sui servizi online</a></li>
+                        <li><a href="">Termini di servizio di YouTube</a></li>
+                        <li><a href="">Norme sulla privacy di Google</a></li>
+                        <li><a href="">Cookie Preferences</a></li>
+                    </ul>
+                    <p>© 2022 Electronic Arts Inc.</p>
+                </div>
+
+                <div class="trust-container">
+                    <a
+                        href="https://privacy.truste.com/privacy-seal/validation?rid=f1a11c5d-0232-4077-8498-2e69a38c1335">
+                        <img class="img_trust" src="./Footer/assets/logotrust.png" alt="TrustLogo"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
