@@ -1,0 +1,30 @@
+.post-navbar {
+  justify-content: space-between;
+  background-color: white;
+  height: 60px;
+  padding: 0px;
+}
+.post-navbar .post-ul {
+  margin-right: 16px;
+  align-items: center;
+}
+.post-navbar .post-ul .post-li {
+  border-style: none;
+  background-color: transparent;
+}
+.post-navbar .post-ul .post-li .content-li {
+  display: none;
+  width: 100%;
+  height: 200px;
+  background-color: beige;
+}
+.post-navbar .post-ul .post-li .menu {
+  width: 20px;
+  height: 24px;
+  transform: rotate(90deg);
+}
+.post-navbar .post-ul .post-li .chevron {
+  width: 14.4px;
+}
+
+/*# sourceMappingURL=post-navbar.css.map */
