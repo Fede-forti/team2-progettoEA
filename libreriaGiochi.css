@@ -8,7 +8,7 @@
     padding: 30px 180px;
 }
 
-.cta-containerr{
+.cta-container2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 80px 180px;
@@ -73,10 +73,11 @@ h2 {
     padding-top: 20px;
 }
 
-.cta-containerrr{
+.cta-container3{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 80px 180px;
     margin-top: -200px;
     background-color:  #2e3640;
 }
+
