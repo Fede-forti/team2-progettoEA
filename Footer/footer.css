@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer{
@@ -14,20 +13,23 @@ footer{
 .top{
     display: flex;
 }
+
 .buttons{
     display: flex;
     width: 500px;
     display: flex;
+    padding-left: 100px;
 }
 
 .foot-container{
-    width: 70%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     margin-top: 25px;
 }
 
 .foot-content{
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -36,6 +38,10 @@ footer{
 ul{
     list-style: none;
     display: flex;
+}
+
+.foot-links li{
+    padding-left: 40px;
 }
 
 a{
@@ -79,4 +85,6 @@ a{
 .trust-container{
     display: flex;
     align-items: flex-end;
+    margin-right: 50px;
 }
+
