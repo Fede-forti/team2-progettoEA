@@ -149,14 +149,6 @@ h3 {
     top: 140px;
 }
 
-.svg_f1{
-    position: relative;
-    width: 161px;
-    height: 110px;
-    left: 91px;
-    top: 164px;
-}
-
 .link_card:hover {
 
     box-shadow: 0 14px 20px 0 rgb(80 80 80 / 24%);
@@ -170,7 +162,8 @@ h3 {
     position: relative;
     text-decoration: none;
     color: white;
-
+    /* top: 0px; */
+    /* left: 116px; */
     font-size: 20px;
     text-align: center;
     padding-top: 164px;
