@@ -1,20 +1,21 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-footer{
+footer {
     width: 100%;
     min-height: 35vh;
     background-color: #f3f3f3;
     display: flex;
     justify-content: center;
 }
-.top{
+
+.top {
     display: flex;
 }
 
-.buttons{
+.buttons {
     display: flex;
     width: 500px;
     display: flex;
@@ -35,7 +36,7 @@ footer{
     justify-content: space-between;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
 }
@@ -49,11 +50,12 @@ a{
     color: rgb(52, 52, 52);
 }
 
-.logo-container > img{
+.logo-container>img {
     width: 64px;
+    height: 64px;
 }
 
-.foot-links{
+.foot-links {
     max-width: 50%;
     display: flex;
     flex-wrap: wrap;
@@ -61,28 +63,28 @@ a{
     margin: 0 0 0 -10px;
 }
 
-.foot-links > li{
+.foot-links>li {
     line-height: 40px;
     margin: 0 50px 0 0;
 }
 
-.legal-copyright{
+.legal-copyright {
     max-width: 55%;
     padding: 0 0 0 30px;
 }
 
-.legal-links{
+.legal-links {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
 }
 
-.legal-links > li{
+.legal-links>li {
     margin: 0 25px 0 0;
     line-height: 25px;
 }
 
-.trust-container{
+.trust-container {
     display: flex;
     align-items: flex-end;
     margin-right: 50px;
