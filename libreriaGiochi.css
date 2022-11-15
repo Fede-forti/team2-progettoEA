@@ -1,0 +1,83 @@
+#hero-vid {
+  width: 100vw;
+}
+
+.cta-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 180px;
+}
+
+.cta-container2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 80px 180px;
+    background-color:  #2e3640;
+}
+
+.cta{
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.image-loaded {
+  width: 100%;
+  height: 197px;
+  margin-top: -30px;
+}
+
+.eapl-cta__image {
+  position: relative;
+  z-index: 1;
+  height: 40px;
+  left: 20px;
+  top: -50px;
+  width: 40px;
+}
+
+h2 {
+  position: relative;
+  left: 20px;
+  top: 80px;
+  color: white;
+  font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+}
+
+.h1-generi{
+    text-align: center;
+    padding-top: 60px;
+    font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.h1-piattaforme{
+    position: relative;
+    display: flex;
+    margin-top: -38px;
+    justify-content: center;
+    z-index: 1;
+    color: white;
+    font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.eapl-tile__image{
+    height: 100%;
+    width: 100%;
+}
+
+.h3-piattaforme{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cta-container3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 80px 180px;
+    margin-top: -200px;
+    background-color:  #2e3640;
+}
+
