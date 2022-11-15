@@ -1,8 +1,13 @@
+@font-face {
+  font-family: eaFont;
+  src: url(./assets/ElectronicArtsText-Regular.woff2);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif!important;
+    font-family: eaFont!important;
 }
 .btn-pros {
   width: 100%;
