@@ -1,9 +1,13 @@
+@font-face{
+  font-family: eaFont;
+  src: url(./assetsElectronicArtsText-Regular.woff2);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ElectronicArtsDisplay, Verdana, Geneva, Tahoma, sans-serif;
-}
+    font-family: eaFont;
+    }
 
 
 nav {
@@ -670,6 +674,9 @@ h2{
           width: 16px;
           margin-right: 7px;
           background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAA50lEQVR42nWRMQ/BQBSAL0aRdDQzMnVjJWam1iDiV4jE5g+ZLSYSC6vIhSbowFrX3rXVeL0Xjza8fOn0fb17LSvOSt84Jwe4uu75cgT2By4ZQ24aBtJ0MyGSJHnqieKUMAzlYPSwbED1up+gv7CRpw7iOI6iCGylVNBoeqYp6rU/QdaGQVtUqqrT+RGAR7aUMggCtAE4Kh+0562cnQba9srlTAAqAouS7fu+gNF2JhguxxTkbSFAvRtG2pgmxwAvgwhfkP3QgwEAy3A6gZamq1MDL8YP9TmBWQViu9uuVyt8Ilz/YP7mBVsTOUQfESu+AAAAAElFTkSuQmCC");
+        }
+        #selector-container p{
+          color: #303030
         }
         
         .dropdown-activated {
