@@ -29,7 +29,7 @@ nav, #hero-section, .section-evidenzia, .section-novità, .hero-section2, #paren
     flex-direction: column;
     justify-content: flex-end;
     width: 79%!important;
-    height: 55%!important;
+    height: 45%!important;
     position: absolute;
   }
 
