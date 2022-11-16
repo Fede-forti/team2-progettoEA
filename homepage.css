@@ -15,6 +15,13 @@ nav, #hero-section, .section-evidenzia, .section-novità, .hero-section2, #paren
   width: 100%!important;
 }
 
+.container_svg a{
+  color: white!important;
+}
+
+.black-nav ul{
+  margin-right: unset!important;
+}
 
 
 .content {
